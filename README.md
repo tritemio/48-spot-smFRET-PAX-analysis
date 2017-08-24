@@ -21,7 +21,7 @@ Data analysis for the paper:
 
 Data can be downloaded from Figshare:
 
-https://doi.org/10.6084/m9.figshare.5146096.v1
+https://doi.org/10.6084/m9.figshare.5146096
 
 ----
 Copyright (C) 2017 The Regents of the University of California.

@@ -157,6 +157,7 @@ def savefig(name, nospaces=True, label=None, **kwargs):
     print('Saved: %s.png' % fname, flush=True)
     if highres:
         kwargs_['dpi'] = 300
-        fname = save_name(name.strip('.png') + '_highres', savefigdir, nospaces=nospaces, label=label)
+        name = name[:-4] if name.lower().endswith('.png') else name
+        fname = save_name(name + '_highres', savefigdir, nospaces=nospaces, label=label)
         print('Saved hires: %s.png' % fname, flush=True)
         plt.savefig(fname, **kwargs_)
